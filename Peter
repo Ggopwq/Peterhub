@@ -92,3 +92,15 @@ getgenv().ForceUseWalkSpeedModifier = false --Force turn on Walk Speed Modifier 
 Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
+
+Tab:AddButton({
+	Name = "فاو فاو",
+	Callback = function()
+      		loadstring(game:HttpGet"https://raw.githubusercontent.com/PNguyen0199/Script/main/Fai-Fao-Ver2.lua")()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
