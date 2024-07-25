@@ -27,12 +27,23 @@ PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
 ]]
 
 local Section = Tab:AddSection({
-	Name = "السكربت تحت التطوير"
+	Name = "اصدار v0.001"
 })
 
 --[[
 Name = <string> - The name of the section.
 ]]
+
+
+
+local Section = Tab:AddSection({
+	Name = "قناتنا التلي @Hacatpeter"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+
 
 local Tab = Window:MakeTab({
 	Name = "بلوكس فروت",
