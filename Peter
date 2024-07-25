@@ -33,3 +33,43 @@ local Section = Tab:AddSection({
 --[[
 Name = <string> - The name of the section.
 ]]
+
+local Tab = Window:MakeTab({
+	Name = "بلوكس فروت",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+
+local Section = Tab:AddSection({
+	Name = "القائمه مختصه بسكربتات بلوكس فروت"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+
+local Section = Tab:AddSection({
+	Name = "-------سكربتات ما تحتاج مفتاح-------"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+
+Tab:AddButton({
+	Name = "ريدز",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
