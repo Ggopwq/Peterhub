@@ -148,3 +148,14 @@ Tab:AddButton({
   	end    
 })
 
+Tab:AddButton({
+	Name = "X-sae",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/XRayDerxDOne/UpdateLog/main/LoaderX.lua"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
