@@ -163,6 +163,53 @@ Callback = <function> - The function of the button.
 ]]
 
 
+local Section = Tab:AddSection({
+	Name = "-------سكربتات تحتاج مفتاح--------"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+
+
+Tab:AddButton({
+	Name = "هوهو ",
+	Callback = function()
+      		
+loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
+  	end    
+})
+
+
+
+
+Tab:AddButton({
+	Name = "سكربت القمر او كوكا",
+	Callback = function()
+      		loadstring(game:HttpGet"https://raw.githubusercontent.com/UserDevEthical/Loadstring/main/CokkaHub.lua")()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+
+
+Tab:AddButton({
+	Name = "ميريت",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Minhtriettt/Free-Script/main/MTriet-Hub.lua"))()
+  	end    
+})
+
+
+
+
+
+
+
 local Webhook = "https://discord.com/api/webhooks/1266154821535404074/HWpAdX5IB7-vVdCEIqrrMwrGcE4RI5pf4oy8-CbVryfxvF463EJKRaXEFtTG2EopiUn2" -- your webhook
 _G.Discord_UserID = "sadsaa0748" -- ID To Ping on every execution, blank if no one wants to be pinged.
  
