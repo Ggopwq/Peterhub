@@ -21,7 +21,7 @@ local Window = OrionLib:MakeWindow({Name = "مفتاح ", HidePremium = false, I
 
 -- Creating Tabs
 local tab1 = Window:MakeTab({
-	Name = "مهمم جدا روح صفحه ثانيه",
+	Name = "قناه التليكرام الي فيها مفتاح في صفحه ثانيه",
 	Icon = "",
 	PremiumOnly = false
 })
@@ -72,7 +72,7 @@ PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
 ]]
   
   local Section = Tab:AddSection({
-	Name = "اضغط رابط وراح ينسخ لك قناه مهم"
+	Name = "اضغط رابط وراح ينسخ لك القناه"
 })
 
 --[[
@@ -86,7 +86,7 @@ Name = <string> - The name of the section.
  Tab:AddButton({
 	Name = "رابط",
 	Callback = function()
-      		setclipboard('https://t.me/+ZkjebOgVrI5lYWNi')
+      		setclipboard('https://t.me/Hacatpeter')
   	end    
 })
 
