@@ -86,7 +86,7 @@ Name = <string> - The name of the section.
  Tab:AddButton({
 	Name = "رابط",
 	Callback = function()
-      		setclipboard('https://raw.githubusercontent.com/Ggopwq/Ggggpetre/main/Moomk')
+      		setclipboard('https://t.me/+ZkjebOgVrI5lYWNi')
   	end    
 })
 
