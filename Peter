@@ -21,7 +21,7 @@ local Window = OrionLib:MakeWindow({Name = "مفتاح ", HidePremium = false, I
 
 -- Creating Tabs
 local tab1 = Window:MakeTab({
-	Name = "قناه التليكرام الي فيها مفتاح في صفحه ثانيه",
+	Name = "السكربت متوقف لتجنب الباند امسح الهاك::",
 	Icon = "",
 	PremiumOnly = false
 })
