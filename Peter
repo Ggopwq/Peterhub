@@ -11,7 +11,7 @@ function DestroyGui()
 end
 
 function Menu()
-    هنا سكربتي
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Ggopwq/Peteryess/main/Petettop"))()
 end
 
 
@@ -21,7 +21,7 @@ local Window = OrionLib:MakeWindow({Name = "مفتاح ", HidePremium = false, I
 
 -- Creating Tabs
 local tab1 = Window:MakeTab({
-	Name = "السكربت متوقف لتجنب الباند امسح الهاك::",
+	Name = "السكربت رجع شغال ",
 	Icon = "",
 	PremiumOnly = false
 })
